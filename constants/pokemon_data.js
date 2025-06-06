@@ -1,4 +1,6 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import { faFire } from '@fortawesome/free-solid-svg-icons/faFire';
+import { faHeart } from '@fortawesome/free-solid-svg-icons/faHeart';
 
 export const data = 
 [
@@ -7,6 +9,7 @@ export const data =
         "concept": "Wartortle is a water-type pokemon from the original Pokemon Red/Blue. Wartortle uses powerful blasts of water to repel its enemies, withdrawing into its shell when it needs to protect itself.", 
         "image": require('../assets/images/wartortle.png'),
         "hp": 43,
+        "primary_color": "orange", 
     }, 
     {
         "name": "Bulbasaur",

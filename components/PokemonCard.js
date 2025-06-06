@@ -6,9 +6,9 @@ import CharacterConcept from './CharacterConcept';
 import FireButton from './FireButton';
 
 
-export default function PokemonCard ({character_name, concept_message, image_name, hp}) {
+export default function PokemonCard ({character_name, concept_message, image_name, hp, style={}}) {
     return (
-        <View style={styles.box}>
+        <View style={[styles.box, style]}>
             <View style={styles.horizontal_2by2_flex}>
                 <Text style={styles.boxTitle}>{character_name}</Text>
                 <View style={styles.horizontal_2by2_flex_with_gap}>
