@@ -1,4 +1,4 @@
-import { View, SafeAreaView, ScrollView, StyleSheet, FlatList, Text } from 'react-native';
+import { SafeAreaView, StyleSheet, FlatList, Text } from 'react-native';
 import PokemonCard from '@/components/PokemonCard';
 import {core_styles} from '@/assets/css/core_styles';
 import {data} from '@/constants/pokemon_data';

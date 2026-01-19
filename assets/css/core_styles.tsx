@@ -20,7 +20,7 @@ export const core_styles = StyleSheet.create({
         borderBottomWidth: 1, 
         borderBottomColor: 'gray',
         backgroundColor: "#ffffff94", 
-        backdropFilter: "blur(5px)", 
+        backdropFilter: "blur(10px)", 
         zIndex: 500,
     }
 })
